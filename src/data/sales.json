@@ -1,0 +1,36 @@
+[
+  { "date": "2025-01-05", "salesRep": "Alice", "client": "Best Buy", "product": "MacBook Pro 14\"", "unitsSold": 4, "revenue": 12000, "target": 10000 },
+  { "date": "2025-01-12", "salesRep": "Bob", "client": "Walmart", "product": "Samsung Galaxy S23", "unitsSold": 10, "revenue": 7000, "target": 8000 },
+  { "date": "2025-01-20", "salesRep": "Ella", "client": "Target", "product": "Sony WH-1000XM5 Headphones", "unitsSold": 60, "revenue": 12000, "target": 10000 },
+  { "date": "2025-01-28", "salesRep": "David", "client": "Staples", "product": "Office Suite License (5 seats)", "unitsSold": 8, "revenue": 2400, "target": 3000 },
+
+  { "date": "2025-02-03", "salesRep": "Alice", "client": "Amazon Retail", "product": "MacBook Pro 14\"", "unitsSold": 5, "revenue": 15000, "target": 12000 },
+  { "date": "2025-02-11", "salesRep": "Frank", "client": "Costco", "product": "iPhone 14", "unitsSold": 12, "revenue": 9600, "target": 11000 },
+  { "date": "2025-02-17", "salesRep": "Grace", "client": "Office Depot", "product": "Analytics Add-on (Enterprise)", "unitsSold": 1, "revenue": 5000, "target": 5000 },
+  { "date": "2025-02-25", "salesRep": "Bob", "client": "Walmart", "product": "Samsung Galaxy Tab", "unitsSold": 8, "revenue": 3200, "target": 3600 },
+
+  { "date": "2025-03-04", "salesRep": "Irene", "client": "Target", "product": "FitTrack Smartwatch", "unitsSold": 35, "revenue": 7000, "target": 6500 },
+  { "date": "2025-03-09", "salesRep": "Alice", "client": "Best Buy", "product": "Accessory Pack (Laptop)", "unitsSold": 120, "revenue": 9000, "target": 8000 },
+  { "date": "2025-03-15", "salesRep": "David", "client": "FinEdge", "product": "Cloud Hosting (12mo)", "unitsSold": 1, "revenue": 12000, "target": 15000 },
+  { "date": "2025-03-22", "salesRep": "Ella", "client": "Costco", "product": "Sony WH-1000XM5 Headphones", "unitsSold": 40, "revenue": 8000, "target": 7000 },
+
+  { "date": "2025-04-02", "salesRep": "Frank", "client": "NovaLabs", "product": "Enterprise CRM (license)", "unitsSold": 1, "revenue": 25000, "target": 25000 },
+  { "date": "2025-04-10", "salesRep": "Grace", "client": "Office Depot", "product": "Analytics Add-on (Enterprise)", "unitsSold": 2, "revenue": 10000, "target": 9000 },
+  { "date": "2025-04-18", "salesRep": "Bob", "client": "Amazon Retail", "product": "iPhone 14", "unitsSold": 6, "revenue": 4800, "target": 6000 },
+  { "date": "2025-04-26", "salesRep": "Irene", "client": "Target", "product": "Office Suite License (5 seats)", "unitsSold": 30, "revenue": 9000, "target": 10000 },
+
+  { "date": "2025-05-05", "salesRep": "Alice", "client": "Best Buy", "product": "MacBook Pro 14\"", "unitsSold": 3, "revenue": 9000, "target": 10000 },
+  { "date": "2025-05-14", "salesRep": "Ella", "client": "Costco", "product": "Accessory Pack (Laptop)", "unitsSold": 140, "revenue": 7000, "target": 6000 },
+  { "date": "2025-05-21", "salesRep": "David", "client": "FinEdge", "product": "Cloud Hosting (12mo)", "unitsSold": 1, "revenue": 12000, "target": 12000 },
+  { "date": "2025-05-29", "salesRep": "Frank", "client": "Walmart", "product": "Samsung Galaxy Tab", "unitsSold": 10, "revenue": 4000, "target": 4500 },
+
+  { "date": "2025-06-03", "salesRep": "Grace", "client": "Office Depot", "product": "Analytics Add-on (Enterprise)", "unitsSold": 1, "revenue": 5000, "target": 5000 },
+  { "date": "2025-06-12", "salesRep": "Bob", "client": "Amazon Retail", "product": "iPhone 14", "unitsSold": 20, "revenue": 16000, "target": 14000 },
+  { "date": "2025-06-20", "salesRep": "Irene", "client": "Target", "product": "FitTrack Smartwatch", "unitsSold": 45, "revenue": 10125, "target": 9000 },
+  { "date": "2025-06-28", "salesRep": "Alice", "client": "Best Buy", "product": "MacBook Pro 14\"", "unitsSold": 2, "revenue": 6000, "target": 7000 },
+
+  { "date": "2025-07-07", "salesRep": "Ella", "client": "Costco", "product": "Sony WH-1000XM5 Headphones", "unitsSold": 110, "revenue": 16500, "target": 13000 },
+  { "date": "2025-07-15", "salesRep": "David", "client": "FinEdge", "product": "Enterprise CRM (license)", "unitsSold": 1, "revenue": 25000, "target": 26000 },
+  { "date": "2025-07-23", "salesRep": "Frank", "client": "Walmart", "product": "Samsung Galaxy Tab", "unitsSold": 9, "revenue": 3600, "target": 4200 },
+  { "date": "2025-08-01", "salesRep": "Grace", "client": "Office Depot", "product": "Analytics Add-on (Enterprise)", "unitsSold": 1, "revenue": 5000, "target": 5000 }
+]
