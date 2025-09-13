@@ -125,7 +125,7 @@ export default function App() {
                 data={productShare}
                 dataKey="value"
                 nameKey="name"
-                outerRadius={100}
+                outerRadius={window.innerWidth < 600 ? 80 : 100}   // shrink on mobile
                 label={({ percent }) => `${(percent * 100).toFixed(0)}%`}
               >
                 {productShare.map((entry, index) => (
@@ -146,9 +146,7 @@ export default function App() {
             </PieChart>
           </ResponsiveContainer>
         </div>
-      </section>
 
-      <section className="charts">
         <div className="card full-bar">
           <h3 className="card-title">Top 5 Customers by Revenue</h3>
           <ResponsiveContainer width="100%" height={280}>
@@ -162,7 +160,7 @@ export default function App() {
               <YAxis stroke="#f1f5f9" tick={{ fill: "#f1f5f9", fontSize: 12 }} />
               <Tooltip
                 contentStyle={{ backgroundColor: "#1e293b", color: "white", borderRadius: "8px" }}
-                cursor={{ fill: "white", fillOpacity: 0.1 }} // subtle highlight
+                cursor={{ fill: "white", fillOpacity: 0.1 }}
               />
               <Bar dataKey="Revenue" fill="#0ea5e9" />
             </BarChart>

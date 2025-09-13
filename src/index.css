@@ -31,7 +31,7 @@ html, body, #root {
 }
 
 .header { text-align: center; margin-bottom: 30px; }
-.header .title { font-size: 3rem; font-weight: 700; color: #4f46e5; letter-spacing: 1.5px; margin:0; }
+.header .title { font-size: 3rem; font-weight: 700; color: #5b52ff; letter-spacing: 1.5px; margin:0; }
 .summary { display:flex; gap:40px; justify-content:center; margin-bottom:25px; }
 .summary-item { display:flex; flex-direction:column; align-items:center; }
 .summary-value { font-size:2rem; font-weight:700; color:#0ea5e9; }
@@ -93,4 +93,52 @@ html, body, #root {
   text-align: center;   
   padding-left: 0;      
   padding-right: 0; 
+}
+
+/* Mobile responsiveness adjustments */
+@media (max-width: 600px) {
+  /* Stack charts vertically and center them */
+  .charts {
+    grid-template-columns: 1fr;  /* stack vertically */
+    gap: 20px;                   /* spacing between charts */
+    display: flex;               /* flex container */
+    flex-direction: column;      /* vertical stacking */
+    align-items: center;         /* center horizontally */
+    padding: 0 10px;             /* uniform padding */
+    box-sizing: border-box;
+  }
+
+  /* Make chart cards full width but centered */
+  .card.large, .card.small, .pie-card, .full-bar {
+    width: 100%;                 /* full width on mobile */
+    max-width: 400px;            /* optional: limit max width for better look */
+    min-height: 220px;           /* mobile-friendly height */
+  }
+
+  .full-bar {
+  margin-left: -20px;   /* push left */
+}
+
+
+
+  /* Stack tables vertically */
+  .table-grid {
+    grid-template-columns: 1fr;   /* top 5 customers below top 5 products */
+    gap: 20px;                    /* spacing between tables */
+    padding: 0 10px;              /* uniform left/right padding */
+    box-sizing: border-box;
+  }
+
+  /* Reduce font sizes for table headers */
+  .data-table th {
+    font-size: 12px;
+  }
+  .data-table td {
+    font-size: 12px;
+  }
+
+  /* Center tables and charts */
+  .table-grid, .charts {
+    margin: 0 auto;
+  }
 }
